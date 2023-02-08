@@ -32,7 +32,7 @@ export default function Layout({children}) {
               <Sidebar />
             </Item>
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={10}>
             <Item>
               <main>
                 <TopBar />
