@@ -1,0 +1,23 @@
+.sidebar{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.topbar{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem;
+}
+.mainsection{
+    height: 90vh;
+    background-color: rgb(243, 236, 236);
+}
+.chart{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+}
