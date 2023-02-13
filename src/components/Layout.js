@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
+import styles from '@/styles/styledoed.module.css'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
@@ -34,12 +35,12 @@ export default function Layout({children}) {
           </Grid>
           <Grid item xs={10}>
             <Item>
-              <main>
+              <div className={styles.maincontainer}>
                 <TopBar />
                 <MainSection >
                   {children}
                 </MainSection>
-              </main>
+              </div>
             </Item>
           </Grid>
         </Grid>

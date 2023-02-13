@@ -9,8 +9,9 @@ export default function SidebarMenu() {
     <div>
       <ul>
         <li><Link href="/home"><AddHomeTwoToneIcon />Home</Link></li>
-        <li><Link href="/home"><InsertChartTwoToneIcon />Gráficos</Link></li>
-        <li><Link href="/home"><ContactMailTwoToneIcon />Contato</Link></li>
+        <li><Link href="/contato"><ContactMailTwoToneIcon />Currículo</Link></li>
+        <li><Link href="/graficos"><InsertChartTwoToneIcon />Gráficos</Link></li>
+        <li><Link href="/contato"><ContactMailTwoToneIcon />Contato</Link></li>
       </ul>
     </div>
   )

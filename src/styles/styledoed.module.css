@@ -1,3 +1,8 @@
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
 .sidebar{
     background-color: white;
     height: 100vh;
@@ -10,8 +15,17 @@
     width: 100%;
     background-color: white;
     padding: 0.5rem;
+    position: absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    float: right;
+}
+.topbar input{
+    width: 300px;
+    height: 3vh; 
+     float: right;
 }
 .mainsection{
+    margin-top: 10vh;
     height: 90vh;
     background-color: rgb(243, 236, 236);
 }
@@ -20,4 +34,30 @@
     height: auto;
     width: 100%;
 
+}
+.contactform{
+    padding: 1rem;
+    display: block;
+    max-width: 80vw;
+}
+.contactform input{
+    margin-top: 1rem;
+    min-width: calc(100% - 1.5rem);
+    height: 8vh;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #a0a19d;
+}
+.contactform textarea{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-width: calc(100% - 1.5rem);
+    height: 18vh;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #a0a19d;
+}
+.contactform button{
+    margin-top: 1rem;
+    float: right;
 }
